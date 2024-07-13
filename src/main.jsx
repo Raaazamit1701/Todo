@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+
 import './index.css'
+// import Todo from './component/Todo.jsx'
+import Offer from "./component/Offer.jsx"
+// import Acordian from './component/Acordian.jsx'
+// import Contentswitch from './component/Contentswitch.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <Offer />
   </React.StrictMode>,
 )
